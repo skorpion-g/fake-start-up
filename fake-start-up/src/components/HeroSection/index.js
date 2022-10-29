@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Video from '../../videos/video.mp4';
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import {
     HeroContainer,
     HeroBg,
@@ -28,9 +28,9 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-            <HeroH1>AI Solutions for Medical Professionals</HeroH1>
+            <HeroH1>The Most Powerful EHR Platform for Medical Professionals</HeroH1>
             <HeroP>
-                Sign Up for a new account today and try our service for 1 month free.
+                Sign up here to demo FrankieSoft for your scheduling needs.
             </HeroP>
             <HeroBtnWrapper>
                 <Button to='signup' 
