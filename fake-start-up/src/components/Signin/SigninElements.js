@@ -31,7 +31,7 @@ export const Icon = styled(Link)`
     margin-left: 32px;
     margin-top: 32px;
     text-decoration: none;
-    color: #fff;
+    color: #EDF5E1;
     font-weight: 700;
     font-size: 32px;
 
@@ -71,7 +71,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
-    color: #fff;
+    color: #EDF5E1;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -80,7 +80,7 @@ export const FormH1 = styled.h1`
 export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
-    color: #fff;
+    color: #05386B;
 `;
 
 export const FormInput = styled.input`
@@ -95,7 +95,7 @@ export const FormButton = styled.button`
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #EDF5E1;
     font-size: 20px;
     cursor: pointer;
 `;
@@ -103,6 +103,6 @@ export const FormButton = styled.button`
 export const Text = styled.span`
     text-align: center;
     margin-top: 24px;
-    color: #fff;
+    color: #EDF5E1;
     font-size: 14px;
 `;

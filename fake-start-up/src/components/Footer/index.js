@@ -65,8 +65,7 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>FrankieSoft</SocialLogo>
-                    <WebsiteRights>FrankieSoft © {new Date().getFullYear()}
-                    All Rights Reserved.</WebsiteRights>
+                    <WebsiteRights>FrankieSoft © {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                             <FaFacebook />
