@@ -23,7 +23,7 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
     display: grid;
-    grid-auto-columns: minmax(900px, 1fr);
+    grid-auto-columns: minmax(1000px, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
@@ -39,7 +39,7 @@ export const Column1 = styled.div`
 `
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    height: 800px;
+    height: 1000px;
     padding: 0 15px;
     grid-area: col2;
 `

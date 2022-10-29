@@ -33,16 +33,16 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'services',
+    id: 'signup',
     lightBg: false,
     lightText: true,
     lightTtextDesc: true,
-    topLine: '24/7 Online Support',
-    headline: `We don't let them leave`,
-    description: `All subscriptions to FrankieSoft gives you exclusive access to our top-notch engineering teams. Don't worry, they can't leave the office until you're problems are solved!`,
+    topLine: 'Limited Time Offer',
+    headline: `Referal Bonuses`,
+    description: `All successful referals will be met with a nice haiku sent to your personal address written by our CEO`,
     buttonLabel: 'Sign Up Now',
     imgStart: false,
-    img: require('../../images/stress.png'),
+    img: require('../../images/sign_up.png'),
     alt: 'service',
     dark: true,
     primary: true,
