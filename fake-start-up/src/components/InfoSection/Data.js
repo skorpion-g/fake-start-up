@@ -1,4 +1,4 @@
-export const homeObjOne = {
+export const infoSection1 = {
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -15,7 +15,7 @@ export const homeObjOne = {
     darkText: false
 }
 
-export const homeObjTwo = {
+export const infoSection2 = {
     id: 'discover',
     lightBg: true,
     lightText: false,
@@ -32,11 +32,11 @@ export const homeObjTwo = {
     darkText: true
 }
 
-export const homeObjThree = {
+export const infoSection3 = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTtextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTtextDesc: false,
     topLine: 'Limited Time Offer',
     headline: `Referal Bonuses`,
     description: `All successful referals will be met with a nice haiku sent to your personal address written by our CEO`,
@@ -44,7 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/sign_up.png'),
     alt: 'service',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }

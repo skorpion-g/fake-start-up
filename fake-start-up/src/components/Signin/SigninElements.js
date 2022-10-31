@@ -80,7 +80,7 @@ export const FormH1 = styled.h1`
 export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
-    color: #05386B;
+    color: #EDF5E1;
 `;
 
 export const FormInput = styled.input`
